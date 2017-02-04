@@ -1,0 +1,37 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+[class|=gr] {
+    text-transform: uppercase;
+}
+
+div:active {
+    color: black;
+}
+
+:checked {
+    color: goldenrod;
+}
+
+/*:invalid {
+    background-color: red;
+}*/
+
+input:valid {
+    background-color: white;
+}
