@@ -1,0 +1,25 @@
+div.exp, span.exp {
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+}
+
+div.exp {
+    height: 50px;
+    width: 100px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+span.exp {
+    height: 50px; /* no effect */
+}
+
+.left {
+  width: 48%;
+  float: left;
+}
+
+.right {
+  width: 48%;
+  float: right;
+}
